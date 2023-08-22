@@ -34,16 +34,16 @@ if(valor<18 && valor>11 && genero=='feminino'){
 imagem.style.backgroundImage = `url(imagens/aadoles.jpg)`
 imagem.style.backgroundPosition = 'center'
 }
-else if(valor<50 && valor>18 && genero=='masculino'){
+else if(valor<50 && valor>=18 && genero=='masculino'){
     imagem.style.backgroundImage = `url(imagens/adulto.jpg)`
 }
-if(valor<50 && valor>18 &&  genero=='feminino'){
+if(valor<50 && valor>=18 &&  genero=='feminino'){
     imagem.style.backgroundImage = `url(imagens/adulta.jpg)`
 }
-else if(valor>50  && genero=='masculino'){
+else if(valor>=50  && genero=='masculino'){
     imagem.style.backgroundImage = `url(imagens/idoso.jpg)`
 }
-else if(valor>50 && genero=='feminino'){
+else if(valor>=50 && genero=='feminino'){
     imagem.style.backgroundImage = `url(imagens/idosa.jpg)`
     imagem.style.backgroundPosition = 'center'
 }
