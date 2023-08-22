@@ -22,6 +22,7 @@ if(Number(data.value)>anov){
 }
 if(valor<=11 && valor>-1 && genero=='masculino'){
     imagem.style.backgroundImage = `url(imagens/menino.jpg)`
+    imagem.style.backgroundPosition = 'center top'
 }
 if(valor<=11 && valor>-1 && genero=='feminino'){
     imagem.style.backgroundImage = `url(imagens/menina.jpg)`
