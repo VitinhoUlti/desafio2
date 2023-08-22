@@ -9,24 +9,26 @@
 <body>
     <header><h1>Verificador de Idade</h1></header>
     <section>
-        <form action="#" method="post">
-
+            <p>
             <label for="idate">
                Ano de nascimento:
             </label>
-            <input type="number" name="date" id="idate" required min="1900" max="2023"> <br>
+            <input type="number" name="date" id="idate" required min="1900" max="2100" value="1900" placeholder="Ano">
+            </p>
 
+            <p>
             <label for="isexo">Gênero:</label>
             <input type="radio" name="sexo" id="isexo" checked>
             <label for="isexo">Masculino</label> 
             <input type="radio" name="sexo" id="ifeminino">
             <label for="ifeminino">
                 Feminino
-            </label><br>
+            </label>
+            </p>
 
-            <input type="submit" value="APERTE">
-
-        </form>
+            <p>
+            <input type="button" value="Aperte" onclick="msk()">
+            </p>
         <div id="msg" class="item"></div>
         <div id="foto" class="item"></div>
     </section>

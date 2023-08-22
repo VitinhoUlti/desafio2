@@ -31,7 +31,7 @@ section{
     font-size: 1.5em;
     text-align: center;
 }
-form{
+p{
     text-align: left;
 }
 #foto{
@@ -39,6 +39,9 @@ form{
     height: 30vh;
     background-color: red;
     margin-left: 25vw;
+    border-radius: 100px;
+    background-size: cover;
+    background-image: url();
 }
 footer{
     display: flex;
@@ -48,4 +51,7 @@ footer{
     align-items: center;
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
+}
+.item{
+    opacity: 0;
 }
