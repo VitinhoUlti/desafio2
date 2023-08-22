@@ -7,6 +7,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header><h1>Verificador de Idade</h1></header>
+    <section>
+        <form action="#" method="post">
+
+            <label for="idate">
+               Ano de nascimento:
+            </label>
+            <input type="number" name="date" id="idate" required min="1900" max="2023"> <br>
+
+            <label for="isexo">Gênero:</label>
+            <input type="radio" name="sexo" id="isexo" checked>
+            <label for="isexo">Masculino</label> 
+            <input type="radio" name="sexo" id="ifeminino">
+            <label for="ifeminino">
+                Feminino
+            </label><br>
+
+            <input type="submit" value="APERTE">
+
+        </form>
+        <div id="msg" class="item"></div>
+        <div id="foto" class="item"></div>
+    </section>
+    <footer>Site criado por Vitor Miguel &copy;</footer>
     <script src="idade.js"></script>
 </body>
 </html>
